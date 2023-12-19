@@ -30,23 +30,21 @@
         </info>
       </infoList>
       <stack>
-        <title>[TITLE]</title>
         <row>
-          <text>[PRICE]</text>
-        </row>        
-        <description handlesOverflow="true">[SUMMARY]</description>
-        <row>
-          <buttonLockup trailerURL="[TRAILERURL]">
+          <buttonLockup movieURL="[HTML5]" movieID="[ID]">
             <badge src="resource://button-play" />
-            <title>Trailer</title>
+            <title>Watch Now</title>
           </buttonLockup>
         </row>
+<!--        <row>-->
+        <description handlesOverflow="true">[SUMMARY]</description>
+<!--        </row>-->
       </stack>
       <heroImg src="[COVERURL]" width="400" height="600" />
     </banner>
     <shelf class="9ColumnGrid">
       <header>
-        <title>More [GENRE] movies</title>
+        <title>You may also like</title>
       </header>
       <section>
         [ALTERNATIVES]

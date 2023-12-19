@@ -11,6 +11,10 @@
 		1D1DC0AC20E5812300728D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1DC0AB20E5812300728D45 /* Assets.xcassets */; };
 		1D1DC0B720E5812400728D45 /* MyRetroFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1DC0B620E5812400728D45 /* MyRetroFlixTests.swift */; };
 		1D1DC0C220E5812400728D45 /* MyRetroFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1DC0C120E5812400728D45 /* MyRetroFlixUITests.swift */; };
+		1D39C93020EAB8A80062B712 /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = 1D1DC0AA20E5812200728D45 /* application.js */; };
+		1D39C93220EABA8C0062B712 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D39C93120EABA8C0062B712 /* banner.png */; };
+		1D39C93420EAC6C40062B712 /* product.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1D39C93320EAC6C40062B712 /* product.xml */; };
+		1D4FA0B920FD228C00F9965D /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4FA0B820FD228B00F9965D /* search.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,9 @@
 		1D1DC0BD20E5812400728D45 /* MyRetroFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRetroFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D1DC0C120E5812400728D45 /* MyRetroFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRetroFlixUITests.swift; sourceTree = "<group>"; };
 		1D1DC0C320E5812400728D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D39C93120EABA8C0062B712 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		1D39C93320EAC6C40062B712 /* product.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = product.xml; sourceTree = "<group>"; };
+		1D4FA0B820FD228B00F9965D /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +99,12 @@
 		1D1DC0A720E5812200728D45 /* MyRetroFlix */ = {
 			isa = PBXGroup;
 			children = (
+				1D4FA0B820FD228B00F9965D /* search.png */,
 				1D1DC0A820E5812200728D45 /* AppDelegate.swift */,
 				1D1DC0AA20E5812200728D45 /* application.js */,
+				1D39C93120EABA8C0062B712 /* banner.png */,
 				1D1DC0AB20E5812300728D45 /* Assets.xcassets */,
+				1D39C93320EAC6C40062B712 /* product.xml */,
 				1D1DC0AD20E5812300728D45 /* Info.plist */,
 			);
 			path = MyRetroFlix;
@@ -221,7 +231,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D4FA0B920FD228C00F9965D /* search.png in Resources */,
+				1D39C93220EABA8C0062B712 /* banner.png in Resources */,
 				1D1DC0AC20E5812300728D45 /* Assets.xcassets in Resources */,
+				1D39C93020EAB8A80062B712 /* application.js in Resources */,
+				1D39C93420EAC6C40062B712 /* product.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
